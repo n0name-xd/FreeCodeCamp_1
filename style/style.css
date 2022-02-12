@@ -1,0 +1,118 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.wrapper {
+    background-color: #EEEEEE;
+    color: #333;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 4em;
+    padding-top: 35px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+
+.foto {
+    background-color: #fff;
+    margin: 50px 30px;
+    height: auto; 
+}
+
+.foto-imege {
+    width: 60%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.foto-imege img {
+    width: 100%; 
+    height: auto;
+}
+
+.signature-photo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto; 
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.years {
+    max-width: 35%;
+    text-align: start;
+    margin: auto;
+}
+
+.years li:before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 10px 2px -20px ;
+}
+
+.years li {
+    padding-top: 15px;
+    line-height: 22px;
+}
+
+.ending {
+    font-style: italic;
+    padding-top: 15px;
+    line-height: 22px;
+}
+
+.footer {
+    padding: 20px 0px 40px 0px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+li span {
+    font-weight: 700;
+}
